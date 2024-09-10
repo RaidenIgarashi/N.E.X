@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white  ;
+
+}
+
+:root{
+  --gap: 3rem;
+}
+
+h1{
+  font-size: 60px;
+}
+
+h2{
+  font-size: 40px;
+}
+
+h3{
+  font-size: 25px;
+}
+p{
+  font-size: 20px;
+}
+body{
+  font-family: "Special Elite", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+ 
+
+.main-bg{
+  background-image: url('../img/endless-constellation.svg');
+  background-position: center center;
+}
+
+.dark-bg{
+  background-color: #0D0200;
+  
+}
+
+.main-content{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: var(--gap);
+
+}
+
+.menu-content{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.section {
+  min-height: 100vh;
+  width: 100%;
+}
+
+
+.main-logo{
+  height: 60px;
+  margin: 0 30px;
+}
+
+.menu{
+  background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+ 
+}
+
+.menu ul{
+  display: flex;
+  list-style: none;
+  padding: 30px 0 0 0;
+   
+}
+
+.menu ul li a {
+  font-size: 20px;
+  display: block;
+  margin: 0 100px 0 0;
+  text-decoration: none;
+  color: black;
+}
+
+.menu ul li a:hover{
+  color: red;
+  border-bottom: solid 1px red;
+}
+
+.menu-spacing{
+  margin:72px 0 0 0;
+}
+
+.menu-ad{
+  height: 250px;
+  width:393px;
+  margin: 70px 0 0 160px;
+  display: flex;
+  overflow: hidden;
+
+
+}
+
+.ads{
+  display: flex;
+}
+
+
+.slide{
+  display: flex;
+
+  
+}
+.arrow-button{
+  width: 25px;
+  height: 42px;
+  position: absolute;
+  margin: 100px 0 0 5px;
+  background-color: transparent;
+  opacity: 0.6;
+  border: transparent;
+  cursor:pointer;
+  
+}
+#prev-button img{
+  width: 25px;
+  height: 42px;
+  transform: scaleX(-1);
+}
+
+#next-button{
+  margin: 100px 0 0 360px;
+}
+#next-button img{
+  width: 25px;
+  height: 42px;
+}
+
+.start-space{
+  margin: 10px 50px 0 0px;
+}
+
+.start-image{
+  height: 300px;
+}
+
+.start-screen{
+  max-height: 100vh;
+  width: 100%;
+
+}
+
+.start-part1{
+  display: flex;
+  justify-content: center;
+}
+
+.start-text{
+  margin: 0 0px 0 67px;
+}
+
+.topic-space{
+  margin: 50px 0 0 0;
+}
+
+.topic-introduction{
+  display: flex;
+  flex-flow: column wrap;
+  padding: 100px 0 0 0;
+  text-align: center;
+  height: 100vh;
+  max-width: 55rem;
+
+}
+
+.topic-space-text{
+  padding: 10px 0 0 0;
+}
+
+.start-section {
+  max-height: 350px;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: space-between;
+}
+
+.sub-topic-space-text{
+  padding: 0 40px 0 40px;
+}
+
+.grid-one-content{
+  display: flex;
+
+  justify-content: center;
+
+}
+
+.sub-topic-space-text h3, p{
+  text-align: center;
+  padding: 15px 0 0 0;
+}
+
