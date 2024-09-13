@@ -43,6 +43,10 @@ body{
   
 }
 
+.black-bg{
+  background-color: #110402;
+}
+
 .main-content{
   max-width: 1200px;
   margin: 0 auto;
@@ -106,6 +110,7 @@ body{
   margin: 70px 0 0 80px;
   display: flex;
   overflow: hidden;
+  cursor: pointer;
 
 
 }
@@ -204,11 +209,73 @@ body{
   display: flex;
 
   justify-content: center;
+  height: 650px;
 
 }
 
 .sub-topic-space-text h3, p{
   text-align: center;
   padding: 15px 0 0 0;
+}
+
+footer{
+  border-top: solid 3px #270701;
+  height: 220px;
+  display: block;
+  
+}
+
+.footer-content{
+  height: 150px;
+  border-bottom: solid 1px #270701 ;
+  display: flex;
+}
+
+.footer-column{
+
+  width: 400px;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  flex-flow: column wrap;
+
+  margin: 20px 0 0 0;
+  
+}
+.footer-txt{
+  font-size: 12px;
+  opacity: 0.7;
+  margin: 10px 0 0 50px;
+  text-align: left;
+  text-decoration: none;
+  padding: 10px;
+} 
+
+.footer-txt:hover{
+  color: #F20505;
+  opacity: 1;
+}
+
+.wrights-footer{
+  height: 50px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+
+.wrights-footer-txt{
+  font-size: 10px;
+  opacity: 0.7;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.logo-footer{
+  height: 120px;
+  margin: 7px 0 0 10px;
+}
+
+.social-footer{
+  margin: 0 0 0 500px;
 }
 
