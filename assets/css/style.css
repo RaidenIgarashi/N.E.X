@@ -220,13 +220,13 @@ body{
 
 footer{
   border-top: solid 3px #270701;
-  height: 220px;
+  max-height: 220px;
   display: block;
   
 }
 
 .footer-content{
-  height: 150px;
+  max-height: 150px;
   border-bottom: solid 1px #270701 ;
   display: flex;
 }
@@ -257,9 +257,9 @@ footer{
 }
 
 .wrights-footer{
-  height: 50px;
+  max-height: 100px;
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: column;
   justify-content: center;
 }
 
@@ -271,11 +271,8 @@ footer{
 }
 
 .logo-footer{
-  height: 120px;
+  max-height: 120px;
   margin: 7px 0 0 10px;
 }
 
-.social-footer{
-  margin: 0 0 0 500px;
-}
 
