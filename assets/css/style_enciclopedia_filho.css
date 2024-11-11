@@ -1,0 +1,79 @@
+section{
+    width: 100%;
+    min-width: 1074px;
+}
+
+.section-space{
+    margin: 150px 0 0 0;
+}
+
+h3{
+    font-size: 35px;
+}
+
+.top-part-section{
+    margin-left: 30px;
+    width: 90%;
+}
+
+input{
+    color: black;
+    height: 20px;
+    width: 270px;
+    font-size: 18px;
+    font-family: "Special Elite", system-ui;
+    padding: 6px;
+
+}
+
+
+.input-container{
+    width: 277px;
+    position: relative
+}
+
+
+.clear{
+    position: absolute;
+        right: 1px;
+        top: 32%;
+        cursor: pointer;
+        color: black;          
+}
+
+.clear b{
+    color: black;
+}
+
+.search-section{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    
+}
+
+.buttom_container{
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.element_buttom{
+    background-color: rgb(68, 1, 1);
+    border-color: rgb(20, 1, 1);
+    height: 40px;
+    width: 120px;
+    cursor: pointer;
+}
+
+.element_buttom:hover{
+    opacity: 0.7;
+}
+
+.element_img{
+    height: 30px;
+}
+
+
+

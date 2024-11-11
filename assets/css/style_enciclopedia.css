@@ -1,0 +1,76 @@
+h1{
+    font-size: 60px;
+  }
+  
+  h2{
+    font-size: 40px;
+  }
+  
+  h3{
+    font-size: 25px;
+  }
+  p{
+    font-size: 20px;
+  }
+  body{
+    font-family: "Special Elite", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .section {
+    min-height: 70vh;
+    width: 100%;
+    margin-top: 120px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+  }
+  
+.topic-section{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    width: 65%;
+  }
+
+
+.top-section{
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+}
+.enciclopedia{
+    width: 138px;
+    height: 189px;
+    display: flex;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.container:hover{
+    opacity: 0.5;
+    color: red;
+}
+
+.container{
+  list-style: none;
+}
+
+.img1{
+    background-image: linear-gradient(to top, rgba(150, 4, 207, 0.473), 60%, #ffffff00), url(/assets/img/Tempestuoso2.png);
+
+}
+.img2{
+    background-image: linear-gradient(to top, rgba(153, 8, 8, 0.473), 60%, #ffffff00), url(/assets/img/Rituais.png);
+
+  }
+
+.img3{
+    background-image: linear-gradient(to top, rgba(0, 52, 194, 0.473), 60%, #ffffff00), url(/assets/img/Itens.png);
+  }

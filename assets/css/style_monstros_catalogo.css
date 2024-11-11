@@ -1,0 +1,139 @@
+
+.enciclopedia{
+    width: 138px;
+    height: 189px;
+    display: flex;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.container:hover{
+    opacity: 0.5;
+}
+
+.container{
+  list-style: none;
+  width: 138px;
+  height: 189px;
+}
+
+.catalogo_criatura{
+    display: grid;
+    grid-gap: 10px 5px;
+    grid-template-columns: repeat(auto-fill, 170px);
+    margin: 50px;
+}
+
+@keyframes caos{
+    20%{
+        transform: translateX(-10%);
+    }
+    30%{
+        transform: translateX(20%);
+    }
+    60%{
+        transform: translateY(-20%);
+    }
+    65%{
+        transform: translateY(10%);
+    }
+    80%{
+        transform: translateX(10%);
+    }
+}
+
+@keyframes sangue{
+    25%{
+        transform: translateX(-10%);
+    }
+
+    50%{
+        transform: translateX(10%);
+    }
+}
+
+@keyframes conhecimento{
+    50%{
+        transform: translatey(-10%);
+    }
+}
+
+@keyframes morte{
+    0% {
+        transform: rotate(0deg) translateX(20%) rotate(0deg);
+      }
+    
+    100% {
+        transform: rotate(360deg) translateX(5%) rotate(-360deg);
+      }
+    }
+
+.morte:hover{
+    animation: 
+        morte 4s infinite alternate ease-in-out;
+}
+.caos:hover{
+    animation: 
+        caos 1s infinite alternate ease-in-out;
+}
+
+.sangue:hover{
+    animation: 
+        sangue 1.5s infinite;
+}
+
+.conhecimento:hover{
+    animation: 
+        conhecimento 2s infinite;
+}
+
+.caos{
+    border: 2px solid rgba(150, 4, 207, 0.473);
+}
+
+.aberrado_de_carne{
+    border: solid 1px rgb(87, 4, 4);
+    background-image: linear-gradient(to top, rgba(153, 8, 8, 0.473), 60%, #ffffff00), url(/assets/img/Aberração_de_Carne.png);
+}
+
+.anarquico{
+    background-image: linear-gradient(to top, rgba(150, 4, 207, 0.473), 60%, #ffffff00), url(/assets/img/Anarquico.png);
+    
+}
+
+.aniquilacao{
+    background-image: linear-gradient(to top, rgba(153, 8, 8, 0.473), 60%, #ffffff00), url(/assets/img/Aniquilacao.png);
+ 
+}
+.anjo{
+    background-image: linear-gradient(to top, rgba(245, 198, 44, 0.473), 60%, #ffffff00), url(/assets/img/Anjo.png);
+}
+
+.anomalia{
+    background-image: linear-gradient(to top, rgba(150, 4, 207, 0.473), 60%, #ffffff00), url(/assets/img/Anomalia.png);
+}
+
+.anomiatico{
+    background-image: linear-gradient(to top, rgba(150, 4, 207, 0.473), 60%, #ffffff00), url(/assets/img/Anomiatico.png);
+
+}
+
+.aracnasita{
+    background-image: linear-gradient(to top, rgba(19, 18, 18, 0.575), 60%, #ffffff00), url(/assets/img/Aracnasita.png);
+
+}
+
+.bicho_papao{
+    background-image: linear-gradient(to top, rgba(245, 198, 44, 0.473), 60%, #ffffff00), url(/assets/img/Bicho_papao.png);
+
+}
+
+.carente{
+    background-image: linear-gradient(to top, rgba(153, 8, 8, 0.473), 60%, #ffffff00), url(/assets/img/Carente.png);
+
+}
+
+.carnical{
+    background-image: linear-gradient(to top, rgba(19, 18, 18, 0.575), 60%, #ffffff00), url(/assets/img/Carnical.png);
+
+}
