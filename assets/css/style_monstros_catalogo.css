@@ -93,55 +93,55 @@
 
 .aberrado_de_carne{
     border: solid 1px rgb(87, 4, 4);
-    background-image: linear-gradient(to top, rgba(153, 8, 8, 0.473), 60%, #ffffff00), url(/assets/img/Aberração_de_Carne.png);
+    background-image: linear-gradient(to top, rgba(153, 8, 8, 0.473), 60%, #ffffff00), url(../img/Aberração_de_Carne.png);
 }
 
 .anarquico{
-    background-image: linear-gradient(to top, rgba(150, 4, 207, 0.473), 60%, #ffffff00), url(/assets/img/Anarquico.png);
+    background-image: linear-gradient(to top, rgba(150, 4, 207, 0.473), 60%, #ffffff00), url(../img/Anarquico.png);
     
 }
 
 .aniquilacao{
-    background-image: linear-gradient(to top, rgba(153, 8, 8, 0.473), 60%, #ffffff00), url(/assets/img/Aniquilacao.png);
+    background-image: linear-gradient(to top, rgba(153, 8, 8, 0.473), 60%, #ffffff00), url(../img/Aniquilacao.png);
  
 }
 .anjo{
-    background-image: linear-gradient(to top, rgba(245, 198, 44, 0.473), 60%, #ffffff00), url(/assets/img/Anjo.png);
+    background-image: linear-gradient(to top, rgba(245, 198, 44, 0.473), 60%, #ffffff00), url(../img/Anjo.png);
 }
 
 .anomalia{
-    background-image: linear-gradient(to top, rgba(150, 4, 207, 0.473), 60%, #ffffff00), url(/assets/img/Anomalia.png);
+    background-image: linear-gradient(to top, rgba(150, 4, 207, 0.473), 60%, #ffffff00), url(../img/Anomalia.png);
 }
 
 .anomiatico{
-    background-image: linear-gradient(to top, rgba(150, 4, 207, 0.473), 60%, #ffffff00), url(/assets/img/Anomiatico.png);
+    background-image: linear-gradient(to top, rgba(150, 4, 207, 0.473), 60%, #ffffff00), url(../img/Anomiatico.png);
 
 }
 
 .aracnasita{
-    background-image: linear-gradient(to top, rgba(19, 18, 18, 0.575), 60%, #ffffff00), url(/assets/img/Aracnasita.png);
+    background-image: linear-gradient(to top, rgba(19, 18, 18, 0.575), 60%, #ffffff00), url(../img/Aracnasita.png);
 
 }
 
 .bicho_papao{
-    background-image: linear-gradient(to top, rgba(245, 198, 44, 0.473), 60%, #ffffff00), url(/assets/img/Bicho_papao.png);
+    background-image: linear-gradient(to top, rgba(245, 198, 44, 0.473), 60%, #ffffff00), url(../img/Bicho_papao.png);
 
 }
 
 .carente{
-    background-image: linear-gradient(to top, rgba(153, 8, 8, 0.473), 60%, #ffffff00), url(/assets/img/Carente.png);
+    background-image: linear-gradient(to top, rgba(153, 8, 8, 0.473), 60%, #ffffff00), url(../img/Carente.png);
 
 }
 
 .carnical{
-    background-image: linear-gradient(to top, rgba(19, 18, 18, 0.575), 60%, #ffffff00), url(/assets/img/Carnical.png);
+    background-image: linear-gradient(to top, rgba(19, 18, 18, 0.575), 60%, #ffffff00), url(../img/Carnical.png);
 
 }
 
 .ceifador_espiral{
-    background-image: linear-gradient(to top, rgba(19, 18, 18, 0.575), 60%, #ffffff00), url(/assets/img/ceifador_espiral.png);
+    background-image: linear-gradient(to top, rgba(19, 18, 18, 0.575), 60%, #ffffff00), url(../img/ceifador_espiral.png);
 }
 
 .espreitador{
-    background-image: linear-gradient(to top, rgba(245, 198, 44, 0.473), 60%, #ffffff00), url(/assets/img/Espreitador.png);
+    background-image: linear-gradient(to top, rgba(245, 198, 44, 0.473), 60%, #ffffff00), url(../img/Espreitador.png);
 }
