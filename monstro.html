@@ -6,15 +6,16 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../../../assets/css/style.css">
-    <link rel="stylesheet" href="../../../assets/css/style_enciclopedia_filho.css">
-    <link rel="stylesheet" href="../../../assets/css/style_monstros_catalogo.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style_enciclopedia_filho.css">
+    <link rel="stylesheet" href="assets/css/style_monstros_catalogo.css">
+    <script src="assets/js/script_enciclopeida_monstro.js" defer></script>
     <title>N.E.X</title>
 </head>
 <body class="black-bg">
     <aside class="menu">
         <div class="main-content menu-content ">
-            <h1><a href="main-page.html"><img src="https://static.wikia.nocookie.net/31aa98e1-d00d-4d93-8f10-c7ba85d9ce32/scale-to-width/755" alt="Logo"  class="main-logo"  ></a></h1>
+            <h1><a href="index.html"><img src="https://static.wikia.nocookie.net/31aa98e1-d00d-4d93-8f10-c7ba85d9ce32/scale-to-width/755" alt="Logo"  class="main-logo"  ></a></h1>
             
             <nav>
                 <ul>
@@ -41,12 +42,12 @@
                         </div>
                     </form>
                     <div class="buttom_container">
-                        <button class="element_buttom"><b style="font-size: 30px;">*</b></button>
-                        <button class="element_buttom"><img src="../assets/img/Medo.webp" alt="" class="element_img"></button>
-                        <button class="element_buttom"><img src="../assets/img/Simbolo_de_Morte.webp" alt="" class="element_img"></button>
-                        <button class="element_buttom"><img src="../assets/img/Simbolo_de_Energia.webp" alt="" class="element_img"></button>
-                        <button class="element_buttom"><img src="../assets/img/Conhecimento.webp" alt="" class="element_img"></button>
-                        <button class="element_buttom"><img src="../assets/img/Simbolo_de_Sangue.webp" alt="" class="element_img"></button>
+                        <button role="checkbox" class="element_buttom"><b style="font-size: 30px;">*</b></button>
+                        <button role="checkbox" class="element_buttom medo_buttom" nome="medo"><img src="../assets/img/Medo.webp" alt="" class="element_img"></button>
+                        <button role="checkbox" class="element_buttom morte_buttom"><img src="../assets/img/Simbolo_de_Morte.webp" alt="" class="element_img"></button>
+                        <button role="checkbox" class="element_buttom energia_buttom"><img src="../assets/img/Simbolo_de_Energia.webp" alt="" class="element_img"></button>
+                        <button role="checkbox" class="element_buttom conhecimento_buttom"><img src="../assets/img/Conhecimento.webp" alt="" class="element_img"></button>
+                        <button role="checkbox"class="element_buttom sangue_buttom"><img src="../assets/img/Simbolo_de_Sangue.webp" alt="" class="element_img"></button>
                     </div>
                 </div>
             </div>
@@ -91,8 +92,13 @@
                     <a href="" class="enciclopedia carnical"></a>
                     <p>Carniçal</p>
                 </li>
-                <li>
-                    <a href="">weopfjwpeofjgop</a>
+                <li class="container morte">
+                    <a href="" class="enciclopedia ceifador_espiral"></a>
+                    <p>Ceifador Espiral</p>
+                </li>
+                <li class="container conhecimento">
+                    <a href="" class="enciclopedia espreitador"></a>
+                    <p>Espreitador</p>
                 </li>
             </ul>
         </section>

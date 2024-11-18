@@ -137,3 +137,11 @@
     background-image: linear-gradient(to top, rgba(19, 18, 18, 0.575), 60%, #ffffff00), url(/assets/img/Carnical.png);
 
 }
+
+.ceifador_espiral{
+    background-image: linear-gradient(to top, rgba(19, 18, 18, 0.575), 60%, #ffffff00), url(/assets/img/ceifador_espiral.png);
+}
+
+.espreitador{
+    background-image: linear-gradient(to top, rgba(245, 198, 44, 0.473), 60%, #ffffff00), url(/assets/img/Espreitador.png);
+}
