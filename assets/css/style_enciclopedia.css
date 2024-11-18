@@ -63,14 +63,14 @@ h1{
 }
 
 .img1{
-    background-image: linear-gradient(to top, rgba(150, 4, 207, 0.473), 60%, #ffffff00), url(/assets/img/Tempestuoso2.png);
+    background-image: linear-gradient(to top, rgba(150, 4, 207, 0.473), 60%, #ffffff00), url(../img/Tempestuoso2.png);
 
 }
 .img2{
-    background-image: linear-gradient(to top, rgba(153, 8, 8, 0.473), 60%, #ffffff00), url(/assets/img/Rituais.png);
+    background-image: linear-gradient(to top, rgba(153, 8, 8, 0.473), 60%, #ffffff00), url(../img/Rituais.png);
 
   }
 
 .img3{
-    background-image: linear-gradient(to top, rgba(0, 52, 194, 0.473), 60%, #ffffff00), url(/assets/img/Itens.png);
+    background-image: linear-gradient(to top, rgba(0, 52, 194, 0.473), 60%, #ffffff00), url(../img/Itens.png);
   }
