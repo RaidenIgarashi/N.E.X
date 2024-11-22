@@ -29,7 +29,8 @@ input{
 
 .input-container{
     width: 277px;
-    position: relative
+    position: relative;
+    z-index: -1;
 }
 
 

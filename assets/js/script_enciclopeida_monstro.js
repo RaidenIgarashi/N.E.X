@@ -1,9 +1,4 @@
-let c_morte = document.querySelector('.morte')
-let c_energia = document.querySelectorAll('.caos')
-let c_conhecimento = document.querySelectorAll('.conhecimento')
-let c_sangue = document.querySelectorAll('.sangue')
 let b = document.querySelectorAll('.element_buttom')
-let b_morte = document.querySelector('.morte_buttom')
 const b_reset = document.querySelector('.reset_buttom')
 let buttom_state = {0: 0, 1: 0, 2: 0, 3: 0, 4: 0} // 0 = medo, 1 = morte, 2 = caos, 3 = conhecimento, 4 = sangue
 const medo = document.querySelectorAll('.medo')
@@ -13,6 +8,7 @@ const conhecimento = document.querySelectorAll('.conhecimento')
 const sangue= document.querySelectorAll('.sangue')
 let translate_state = {0: medo, 1: morte, 2: caos, 3: conhecimento, 4: sangue}
 const catalogo = document.querySelector('.catalogo_criatura')
+const input = document.getElementById('search')
 
 b.forEach(function(el, i){
     el.addEventListener('click', function(){
@@ -66,8 +62,32 @@ function element_filter(){
 }
 }
 
-function medodeclare(){
-    medo.forEach(function(el){
-        console.log(el)
-    })
+
+
+function sayMyName(){
+    for (i in translate_state){
+        translate_state[i].forEach(function(el){
+            console.log(el.textContent)
+        })
+    }
 }
+
+search.addEventListener('input', function(ev){
+    const value = ev.target.value
+    let size = value.length
+    console.log(size)
+    for (i in translate_state){
+        translate_state[i].forEach(function(creature){
+            let name = String(creature.textContent).trim()
+            if (name.includes(value)){
+                if(!(catalogo.contains(creature))){
+                    catalogo.appendChild(creature)
+                }
+            }else{
+                if(catalogo.contains(creature)){
+                    catalogo.removeChild(creature)
+                }
+            }
+        })
+    }
+})
