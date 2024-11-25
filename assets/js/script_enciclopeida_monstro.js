@@ -9,6 +9,9 @@ const sangue= document.querySelectorAll('.sangue')
 let translate_state = {0: medo, 1: morte, 2: caos, 3: conhecimento, 4: sangue}
 const catalogo = document.querySelector('.catalogo_criatura')
 const input = document.getElementById('search')
+const menu = document.querySelector('.menu')
+const logo = document.querySelector('.main-logo')
+const allcreatures = document.querySelectorAll('.container')
 
 b.forEach(function(el, i){
     el.addEventListener('click', function(){
@@ -91,3 +94,4 @@ search.addEventListener('input', function(ev){
         })
     }
 })
+

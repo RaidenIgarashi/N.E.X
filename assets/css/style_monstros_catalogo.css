@@ -7,9 +7,19 @@
     cursor: pointer;
 }
 
+
+.catalogo_criatura .container.medo:hover ~ .container {
+    opacity: 0.5;
+}
+
+.catalogo_criatura .container.medo:hover {
+    opacity: 1;
+}
 .container:hover{
     opacity: 0.5;
 }
+
+
 
 .container{
   list-style: none;
@@ -68,6 +78,28 @@
       }
     }
 
+    @keyframes medo{
+        0%{
+            transform: translateY(-10%);
+        }
+        30%{
+            transform: translateY(-30%);
+        }
+        60%{
+            transform: translateY(-10%);
+        }
+        90%{
+            transform: translateY(-30%);
+        }
+        100%{
+            transform: translateY(-30%);
+        }
+    }
+
+.medo:hover{
+    animation: 
+        medo 5s infinite alternate ease-in-out;
+}
 .morte:hover{
     animation: 
         morte 4s infinite alternate ease-in-out;
@@ -85,10 +117,6 @@
 .conhecimento:hover{
     animation: 
         conhecimento 2s infinite;
-}
-
-.caos{
-    border: 2px solid rgba(150, 4, 207, 0.473);
 }
 
 .aberrado_de_carne{
@@ -144,4 +172,8 @@
 
 .espreitador{
     background-image: linear-gradient(to top, rgba(245, 198, 44, 0.473), 60%, #ffffff00), url(../img/Espreitador.png);
+}
+
+.degolificada{
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 0.473), 60%, #ffffff00), url(../img/Degolificada.png);
 }
