@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+    <title>Teste</title>
+    <style>
+        *{
+            font-family: "Special Elite", system-ui;
+        }
+        body{
+            background-color: #0D0200;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            height: 100vh;
+        }
+        .menu_login{
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 300px;
+            height: 300px;
+            border: solid 2px rgb(34, 22, 22);
+            border-radius: 5px;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .input-group{
+            display: flex;
+            flex-direction: column;
+            gap: 0;
+        }
+
+        #submit{
+            border: none;
+            background-color: rgb(201, 84, 84);
+            color: white;
+            height: 25px;
+        }
+
+        #submit:hover{
+            filter: brightness(80%);
+        }
+
+        .exit{
+            padding: 1000px;
+        }
+    </style>
+</head>
+<body>
+    <div class="menu_login">
+        <form method="post" class="">
+            <div class="title">
+                <h1>Registre-se</h1>
+            </div>
+            <div class="input-group">
+                <label for="user"><b>Usuario</b></label>
+                <input type="text" name="user" id="user" placeholder="AnGeL oF tHe NiGhT">
+            </div>
+            <div class="input-group">
+                <label for="password"><b>Senha</b></label>
+                <input type="password" name="password" id="password" placeholder="cl4ud14">
+            </div>
+            <a href="">Entrar como Visitante</a>
+            <input type="submit" name="submit" id="submit">
+        </form>
+    </div>
+</body>
+</html>

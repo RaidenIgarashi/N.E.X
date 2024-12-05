@@ -75,13 +75,14 @@ function sayMyName(){
     }
 }
 
-search.addEventListener('input', function(ev){
-    const value = ev.target.value
+input.addEventListener('input', function(ev){
+    let value = ev.target.value
+    value = value.toLowerCase()
     let size = value.length
     console.log(size)
     for (i in translate_state){
         translate_state[i].forEach(function(creature){
-            let name = String(creature.textContent).trim()
+            let name = String(creature.textContent).trim().toLowerCase()
             if (name.includes(value)){
                 if(!(catalogo.contains(creature))){
                     catalogo.appendChild(creature)

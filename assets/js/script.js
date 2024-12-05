@@ -4,6 +4,10 @@ const num_ads = 4
 let slider = document.getElementById('slide')
 let btnext = document.getElementById('next-button')
 let btlast = document.getElementById("prev-button")
+const login = document.getElementById("menu_login")
+const enter = document.getElementById("entre")
+const login_escape = document.getElementById("login_escape")
+
 function lastimage(){
     count--
     if(count < 0){
@@ -34,4 +38,12 @@ setInterval(nextimage, 4000)
 btnext.addEventListener('click', nextimage)
 btlast.addEventListener('click', lastimage)
 
+enter.addEventListener('click', function(){
+    login.classList.add('menu_login_open');
+    document.body.classList.add('menu-active');
+})
 
+login_escape.addEventListener('click', function(){
+    login.classList.remove("menu_login_open")
+    document.body.classList.remove("menu-active")
+})
