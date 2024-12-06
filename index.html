@@ -21,8 +21,8 @@
                     <li><a href="#">Hall</a></li>
                     <li><a href="#">Homebrew</a></li>
                     <li><a href="enciclopedia.html">Enciclopédia</a></li>
-                    <li><a href="#">Registre-se</a></li>
-                    <li><a href="#" role="button" id="entre">Entre</a></li>
+                    <li><a href="#" role="button" class="register-buttom">Registre-se</a></li>
+                    <li><a href="#" role="button" class="login-buttom">Entre</a></li>
                 </ul>
             </nav>
         </div>
@@ -31,7 +31,7 @@
     <div class="menu_login" id="menu_login">
         <form method="post" class="login_form">
             <h1>Faça o Login</h1>
-            <span class="login_escape" role="button" id="login_escape"><img src="https://cdn2.iconfinder.com/data/icons/media-controls-5/100/close-512.png" alt="" style="height: 20px;"></span>
+            <span class="escape" role="button" id="login_escape"><img src="https://cdn2.iconfinder.com/data/icons/media-controls-5/100/close-512.png" alt="" style="height: 20px;"></span>
             <div class="input-group">
                 <label for="user"><b>Usuario</b></label>
                 <input type="text" name="user" id="user" placeholder="AnGeL oF tHe NiGhT">
@@ -41,10 +41,36 @@
                 <input type="password" name="password" id="password" placeholder="cl4ud14">
             </div>
             <a href="">Entrar como Visitante</a>
+            <a href="#" class="register-buttom" role="button">Registre-se</a>
             <input type="submit" name="submit" id="submit">
         </form>
     </div>
+    <div class="menu-register" id="menu-register">
+        <form method="post" class="register_form">
+            <div class="title">
+                <h1>Crie sua Conta</h1>
+                <span class="escape" role="button" id="register_escape"><img src="https://cdn2.iconfinder.com/data/icons/media-controls-5/100/close-512.png" alt="" style="height: 20px;"></span>
 
+            </div>
+            <div class="input-group">
+                <label for="name"><b>Digite um nome</b></label>
+                <input type="text" name="name" id="name" placeholder="Cesar Cohen">
+            </div>
+            <div class="input-group">
+                <label for="user"><b>Digite um usuario</b></label>
+                <input type="text" name="user" id="user" placeholder="AnGeL oF tHe NiGhT">
+            </div>
+            <div class="input-group">
+                <label for="password"><b>Digite uma senha</b></label>
+                <input type="password" name="password" id="password" placeholder="cl4ud14">
+            </div>
+            <div class="input-group">
+                <label for="password"><b>Digite sua senha novamente</b></label>
+                <input type="password" name="password" id="password" placeholder="cl4ud14">
+            </div>
+            <input type="submit" name="submit" id="submit">
+        </form>
+    </div>
     <div class="menu-spacing start-screen main-bg main">
         <div class="start-part1">
             <div>
@@ -65,7 +91,7 @@
                             <a href="enciclopedia.html"><img src="assets/img/Enciclopedia.png" alt="Enciclopedia"></a>
                         </div>
                         <div>
-                            <a href=""><img src="assets/img/Registrese.png" alt="Registrese"></a>
+                            <a href="#" class="register-buttom"><img src="assets/img/Registrese.png" alt="Registrese"></a>
                         </div>
                     </div>
                     <button id="next-button" class="arrow-button"><img src="assets/img/Seta.png" alt=""></button>

@@ -20,15 +20,34 @@
   flex-direction: column;
   align-items: center;
   width: 300px;
-  height: 300px;
+  height: 320px;
   border: solid 2px rgb(34, 22, 22);
   border-radius: 5px;
   position:fixed;
-  top: 30%;
-  left: 40%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   color: black;  
 }
-.login_escape{
+
+.menu-register{
+  visibility: hidden;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 350px;
+  height: 370px;
+  border: solid 2px rgb(34, 22, 22);
+  border-radius: 5px;
+  position:fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;  
+}
+
+.escape{
   position: fixed;
   right: 18px;
   top: 25px;
@@ -43,12 +62,13 @@
   
 }
 
-.menu_login_open h1 {
+.menu_login_open h1, .menu-register h1 {
   font-size: 30px;
   margin: 21px 0 21px 0;
+  color: black;
 }
 
-.menu_login_open h1, b, input{
+.menu_login_open input, .menu_login_open b{
   color: black;
 }
 
@@ -64,7 +84,7 @@ body.menu-active > *:not(.menu_login){
 }
 
 
-.login_form{
+.login_form, .register_form{
   display: flex;
   flex-direction: column;
   gap: 20px;
