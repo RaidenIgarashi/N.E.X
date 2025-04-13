@@ -62,6 +62,7 @@ register_buttom.forEach(function(buttom){
     })
 })
 
+
 register_escape.addEventListener("click", function(){
     register.classList.remove("menu_login_open")
     document.body.classList.remove("menu-active")
